@@ -10,7 +10,7 @@ import javax.swing.Timer;
 import static java.lang.Math.*;
 
 public class GraphicsController extends JPanel implements ActionListener {
-    private int DELAY = 1000xvxvxcv;
+    private int DELAY = 10;
     private int secondsPassed = 10;
     MyTrapezoid trapezoid = new MyTrapezoid(
             new MyPoint(new double[]{350,650,0}),
