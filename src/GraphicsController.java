@@ -53,7 +53,7 @@ public class GraphicsController extends JPanel implements ActionListener {
     }
 
     public void drawMyShape(MyShape myShape, Graphics2D G2D) {
-        for (int i = 0; i < 12; ++i) {
+        for (int i = 0; i <     12; ++i) {
             G2D.drawLine(
                     (int) myShape.lines[i].startCoordinate.position[0], (int) myShape.lines[i].startCoordinate.position[1],
                     (int) myShape.lines[i].endCoordinate.position[0], (int) myShape.lines[i].endCoordinate.position[1]
