@@ -10,9 +10,10 @@ public class MainClass {
         win.setSize(1400, 1000);
         win.setTitle("Graphics Engine");
         win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        win.setVisible(true);
 
         GraphicsController graph = new GraphicsController();
         win.add(graph);
+
+        win.setVisible(true);
     }
 }
