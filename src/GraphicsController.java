@@ -5,13 +5,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
 
-
-
 import static java.lang.Math.*;
 
 public class GraphicsController extends JPanel implements ActionListener {
     private int DELAY = 10;
     private int secondsPassed = 10;
+
     MyTrapezoid trapezoid = new MyTrapezoid(
             new MyPoint(new double[]{350,650,0}),
             new MyPoint(new double[]{400, 900, 300}),
